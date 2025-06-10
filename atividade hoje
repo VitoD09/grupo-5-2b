@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+
+    }
+    header{
+        display: flex;
+        button{
+        
+        }
+    }
+    .quatro{
+        border: 1px solid white;
+        background-color:  green;
+        border-radius: 50px;
+    }
+    .web{
+        border: 1px solid white;
+        background-color: blueviolet;
+        border-radius: 100px;
+    }
+    .resp{
+        border: 1px solid white;
+        background-color: yellow;
+        border-radius: 100px;
+    }
+.Accept{
+    border: 1px solid white;
+    background-color: gray;
+    border-radius: 100px;
+}
+.decli
+{ border: 1px solid white;
+    background-color: white;
+    border-radius: 100px
+
+}
+
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <h2> New Oportunity</h2> 
+    <button> Avaliable </button>
+    </header>
+    <hr>
+    <img src="#" alt="Jenifer A."> Meta - Facebook - California
+    
+    <h2>$35,000 - $45,000 </h2>
+    <p> 14 Oct - 2024</p>
+    <p> 89.5% Match</p>
+    <button class="quatro">4.9</button>
+    <button class="web" >
+      WebSite </button>
+    <button class="resp">Responsive </button>
+    <p>Need Responsive WebSite showcase product morden visually appealing design.</p>
+    <img src="#" alt="Robert T."> Full Cycle Agency  Salt lake
+    <hr>
+    <button class="Accept" > Accept Project </button>
+    <br>
+    <button class="decli"> Decline offer </button>
+</body>
+</html>
