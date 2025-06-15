@@ -1,48 +1,316 @@
 <!DOCTYPE html>
- <html>
-  <head>
-    <meta charset="UTF-8" />
-    <nav>
-      <img src="#">Tosnos
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Product</a></li>
-      <li><a href="#">Feature</a></li>
-      <li><a href="#">Princing</a></li>
-      <li><a href="#">Sign Up</a></li>
-      <li><a href="#">Log in</a></li>
-    </ul>
-  </head>
-  <main>
-    <div>
-    <button>Best software servic</button>
-    <h1>Create &<br>analytics all<br>necessaries</h1>
-      <p>Manage your all documents transparent,<br>safe and secure. We provide world's</p>
-      <button>Get Started</button><button>Explore More</button>
-      </div>
-    <img src="#"
-         </main>
-    <div>
-      <h5>We are trusted by</h5>
-      <ul>
-        <li><img src="#">Netflix</li>
-        <li><img src="#">Slack</li>
-        <li><img src="#">Converse</li>
-        <li><img src="#">Shazam</li>
-        <li><img src="#">Prada</li>
-       </ul>
-      </div>
-    <div>
-    <button>Features</button>
-      <h2>Most essential features</h2>
-      <p>Lorem ipsum dolor sit amet consectetur.Neque vel orci eget rhoncus<br>
-pretium.Proin últrices elementum aliquet</p>
-      <ul>
-        <li><img src="#"></li>
-        <li><img src="#"></li>
-        <li><img src="#"></li>
-      </ul>
-      </div>
-      </nav>
-     </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Website Css</title>
+    <style>
+    .primary{
+      display: flex;
+      justify-content: center;
+}
+* {
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.logo-container img {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container nav ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+}
+
+.nav-container nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-container nav ul li a:hover {
+    color: #7a4be0;
+}
+
+.nav-container nav ul li a::before {
+    content: '';
+    position: absolute;
+    right: 0.938rem;
+    left: 0.938rem;
+    border-radius: 0.625rem;
+    bottom: -0.125rem;
+    transform: scaleX(0);
+    height: 0.25rem;
+    color: blueviolet; 
+    background-color: #7a4be0;
+    
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.688rem;
+}
+#signup {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 0.938rem;
+}
+#login {
+    padding: 0.625rem 2.188rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(#333, black);
+    color: white;
+    border: none;
+}
+
+.primary {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bss {
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #c0c0c0;
+    padding: 0.438rem 0.938rem;
+    width: 13.438rem;
+    color: rgb(112, 73, 255);
+    font-weight: 500;
+    border-radius: 1.25rem;
+    font-size: 0.938rem;
+}
+
+main {
+    padding: 4.688rem;
+}
+
+.title-container h1 {
+    display: flex;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.description {
+    display: flex;
+    color: #444;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    margin-bottom: 1.375rem;
+} 
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%51;
+}
+.features-container{
+    display: flex;
+    justify-content: center;
+}
+.dvi{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.dv{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    color: violet;
+    background-color: white;
+    font-weight: 150;
+    border-color: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.davi{
+    display: flex;
+}
+#get{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: blueviolet;
+    font-weight: 200;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#explore{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    height: 40px;
+    width: 140px;
+    color: black;
+    background-color: rgb(243, 224, 240);
+    font-weight: 200;
+    border-radius: 50px; 
+    border-color: white;
+    font-size: 15px;
+}
+
+.t{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+}
+
+.colunas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+ 
+}
+.coluna1,.coluna2,.coluna3{ 
+    color: #fff;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    padding: 0.8em;
+
+}
+.coluna1{
+    background-color: blueviolet;
+    margin-top: 3.8rem;
+}
+.coluna2{
+    background-color: brown;
+    margin-top: 2.5rem;
+}
+.coluna3{
+    background-color: darkgreen;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/Gemini_Generated_Image_82z0t582z0t582z0-Photoroom.png" alt="Tosnos" height="75px">
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Product">Product</a></li>
+                    <li><a href="#Feature">Feature</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn-container">
+            <a href="#signup" id="signup">Sign Up</a>
+            <a href="#Login"><button id="login">Log In</button></a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="primary">
+            <p class="bss">BEST SOFTWARE SERVICE</p>
+            <div class="title-container">
+                <h1>Create & <br> anallytics all <br> necessaries</h1>
+            </div>
+                <p class="description">Manage your all documents transparent, <br> safe and secure. We provide world's</p>
+                <div class="davi">
+                    <a href="#" style="text-decoration: none;"><button id="get">Get Started</button></a>
+                    <a href="#" style="text-decoration: none;"><button id="explore">Explore more</button></a>
+                </div>
+            </div>
+        </section>    
+        <section>
+            <div class="text">
+                <h5> We are trusted by</h5><br>
+            </div>
+            <div class="images">
+                <img src="#" alt="netflix">
+                <img src="#" alt="slack">
+                <img src="#" alt="CONVERSE">
+                <img src="#" alt="SHAZAM">
+                <img src="#" alt="PRADA">
+            </div>
+        </section>
+        
+        <section >
+            <div class="dvi">
+                <button class="dv">FEATURES</button>
+            </div>
+            <div class="t">
+                <h2>Most essential features</h2><br>
+            </div>
+            <div class="d">
+                <p>Lorem ipsum dolor sit amet consectetur. Neque vel orci eget rhoncus <br> pretium. Proin ultrices elementum aliquet</p>
+            </div>
+        </section>
+                <section class="colunas">
+            <div class="coluna1">
+                    <p>Service Godown</p>
+                    <p>Flexibility</p>
+                    <img src="#" alt="troca de dados">
+                </div>
+                <div class="coluna2">
+                    <p>Vast Storage</p>
+                    <button>Working</button>
+                    <button>Remaining</button>
+                </div>
+                <div class="coluna3">
+                    <p>Latest Analytics</p>
+                    <h6>Growth rate - <span>+5,50%</span></h6>
+                    <img src="#" alt="gráfico de crescimento">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
